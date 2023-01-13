@@ -9,10 +9,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
   <style>
-    body { background-color: #4b006e;
+    body { background-color: white;
     }
       padding-top: 40px;
       padding-bottom: 40px;
+    }
+
+    .banner {
+      display: flex;
+      justify-content: center;
     }
 
     .banner-image {
@@ -30,7 +35,14 @@
     }
 
     .name {
-      color: white;
+      color: #4b006e;
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: space-around;
     }
 
     .social-icons a {
@@ -39,12 +51,25 @@
     }
 
     .link {
-      background-color: yellow
+      background-color: yellow;
+      display: flex;
+      align-items: center;
+      padding: 5px;
     }
 
     .link a {
       color: blue;
       text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px
+      flex-grow: 1;
     }
 
 
@@ -91,7 +116,7 @@
   </a>
 </div>
 
-<div class="link banner-image">
+<div class="link">
   <img src="local_opps.jpg" class="thumbnail">
   <a target="_blank" href="https://www.vailocal.com/jobs">
     Full List of Local Opportunities
