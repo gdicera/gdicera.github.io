@@ -1,8 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VaiLocal</title>
+
+  <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="my_styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <style>
+    body { background-color: #4b006e;
+    }
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+    .banner-image {
+      width: 128px;
+      height: 128px;
+      object-fit: cover;
+      border-radius: 128px;
+    }
+
+    .thumbnail {
+      width: 48px;
+      height: 48px;
+      border-radius: 48px;
+      object-fit: cover;
+    }
+
+    .name {
+      color: white;
+    }
+
+    .social-icons a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .link {
+      background-color: yellow
+    }
+
+    .link a {
+      color: blue;
+      text-decoration: none;
+    }
+
+
+  </style>
+
+</head>
+<h1> VaiLocal </h1>
+
+<body>
 <div class="banner">
-  <img src="V.png" alt="VaiLocal logo">
+  <img src="V.png" alt="VaiLocal logo" class="banner-image">
 </div>
 
-<div class="name">
+<div class="name" class="banner-image">
   VaiLocal
 </div>
 
@@ -22,22 +78,23 @@
 </div>
 
 <div class="link">
-  <img src="V.png">
+  <img src="V.png" class="thumbnail">
   <a target="_blank" href="https://www.vailocal.com/">
     Website
   </a>
 </div>
 
 <div class="link">
-  <img src="stlouisinno25_headshot.jpeg">
+  <img src="stlouisinno25_headshot.jpeg" class="thumbnail">
   <a target="_blank" href="https://www.bizjournals.com/stlouis/inno/stories/awards/2022/09/15/giuseppe-di-cera-student-opportunites-network.html">
     Giuseppe Di Cera St. Louis Inno Under 25
   </a>
 </div>
 
-<div class="link">
-  <img src="local_opps.jpg">
+<div class="link banner-image">
+  <img src="local_opps.jpg" class="thumbnail">
   <a target="_blank" href="https://www.vailocal.com/jobs">
     Full List of Local Opportunities
   </a>
 </div>
+</body>
